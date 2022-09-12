@@ -17,8 +17,7 @@ function App() {
     <div>
       <Navzit setSearchRating={setSearchRating} setname={setname} />
       <List movies={movies} searchRating={searchRating} searchname={searchname}/>
-      <Add />
-      <handleMovies handleMovies={handleMovies}/>
+      <Add handleMovies={handleMovies} />
 
     </div>
   );

@@ -1,7 +1,6 @@
 import React from 'react'
 import {Card} from 'react-bootstrap'
 import Rating from '@mui/material/Rating';
-import { movieData } from './Data';
 
 function MovieCard({x}) {
   return (
